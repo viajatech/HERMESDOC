@@ -15,3 +15,8 @@ hermes
 
 # Edit Config (increase memory)
 nano ~/.hermes/config.yaml
+
+Nano save commands:
+CTRL + O
+ENTER
+CTRL + X
