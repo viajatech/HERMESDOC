@@ -15,8 +15,26 @@ hermes
 
 # Edit Config (increase memory)
 nano ~/.hermes/config.yaml
+----
 
-Nano save commands:
-CTRL + O
-ENTER
-CTRL + X
+Increase Hermes Memory (Config)
+Open Hermes config:
+
+nano ~/.hermes/config.yaml
+
+Find this section:
+
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  memory_char_limit: 2200
+  user_char_limit: 1375
+
+Replace it with a larger memory configuration:
+
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  memory_char_limit: 50000
+  user_char_limit: 20000
+  provider: holographic
