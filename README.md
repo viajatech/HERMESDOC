@@ -14,23 +14,29 @@ hermes config set GOOGLE_API_KEY TU_API_KEY
 hermes
 
 # Edit Config (increase memory)
+#Edita configurar para incrementar la memoria de Hermes
+----
 nano ~/.hermes/config.yaml
 ----
 
 Increase Hermes Memory (Config)
 Open Hermes config:
-
+-----
 nano ~/.hermes/config.yaml
+------
 
 Find this section:
+Encuentra esta sección;
 
 memory:
   memory_enabled: true
   user_profile_enabled: true
   memory_char_limit: 2200
   user_char_limit: 1375
+-----
 
-Replace it with a larger memory configuration:
+Replace it with a larger memory configuration
+Re-emplaza con esta configuración
 
 memory:
   memory_enabled: true
